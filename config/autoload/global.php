@@ -12,5 +12,13 @@
  */
 
 return array(
-    // ...
+     'db' => array(
+      'driver'         => 'Pdo_Mysql',
+      'dsn'            => 'mysql:dbname=album;host=localhost',
+   ),
+    'service_manager' => array(
+    		'factories' => array(
+    				'Zend\Db\Adapter\Adapter' => 'Zend\Db\Adapter\AdapterServiceFactory',
+    		),
+    ),
 );
