@@ -1,0 +1,222 @@
+2014-01-04T22:50:27+00:00 CRIT (2): application/default
+2014-01-04T22:50:27+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Application\\Controller',
+  'controller' => 'Application\\Controller\\Test',
+  'action' => 'index2',
+  '__CONTROLLER__' => 'test',
+)
+2014-01-04T22:50:27+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/application/test/index2 HTTP/1.1
+Cookie: PHPSESSID=1012l9k2sc8sgu9k3irahp2sg6
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-04T22:50:27+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "application/test/index2"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-04T22:50:46+00:00 CRIT (2): application/default
+2014-01-04T22:50:46+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Application\\Controller',
+  'controller' => 'Application\\Controller\\Test',
+  'action' => 'index2',
+  '__CONTROLLER__' => 'test',
+)
+2014-01-04T22:50:46+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/application/test/index2 HTTP/1.1
+Cookie: PHPSESSID=1012l9k2sc8sgu9k3irahp2sg6
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-04T22:50:46+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "application/test/index2"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-04T22:52:40+00:00 CRIT (2): application/default
+2014-01-04T22:52:40+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Application\\Controller',
+  'controller' => 'Application\\Controller\\Test',
+  'action' => 'index2',
+  '__CONTROLLER__' => 'test',
+)
+2014-01-04T22:52:40+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/application/test/index2 HTTP/1.1
+Cookie: PHPSESSID=1012l9k2sc8sgu9k3irahp2sg6
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-04T22:52:40+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "application/test/index2"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-04T22:52:40+00:00 CRIT (2): application/default
+2014-01-04T22:52:40+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Application\\Controller',
+  'controller' => 'Application\\Controller\\Test',
+  'action' => 'index2',
+  '__CONTROLLER__' => 'test',
+)
+2014-01-04T22:52:40+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/application/test/index2 HTTP/1.1
+Cookie: PHPSESSID=1012l9k2sc8sgu9k3irahp2sg6
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-04T22:52:40+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "application/test/index2"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-04T23:15:38+00:00 CRIT (2): registration
+2014-01-04T23:15:38+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'CsnUser\\Controller',
+  'controller' => 'CsnUser\\Controller\\Registration',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Registration',
+)
+2014-01-04T23:15:38+00:00 CRIT (2): POST http://localhost/zend/zf2modules/public/signup HTTP/1.1
+Cookie: PHPSESSID=1012l9k2sc8sgu9k3irahp2sg6
+Host: localhost
+Connection: keep-alive
+Content-Length: 186
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://localhost
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://localhost/zend/zf2modules/public/signup
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+username=hxin1&displayName=hxin1&email=hxin1%40gmail.com&password=12091209&passwordConfirm=12091209&captcha%5Bid%5D=4f809f5282b9060d0d5d55c941880a73&captcha%5Binput%5D=mos&submit=Sign+up
+2014-01-04T23:15:38+00:00 CRIT (2): exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'test1'' in /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=loca...', 'root', '12091209', Array)
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(41): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=loca...', 'root', '12091209', Array)
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(356): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'root', '12091209', Array)
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(680): Doctrine\DBAL\Connection->connect()
+#4 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php(748): Doctrine\DBAL\Connection->executeQuery('SELECT t0.id AS...', Array, Array)
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php(196): Doctrine\ORM\Persisters\BasicEntityPersister->load(Array, NULL, NULL, Array, 0, 1, NULL)
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/doctrine-module/src/DoctrineModule/Validator/NoObjectExists.php(50): Doctrine\ORM\EntityRepository->findOneBy(Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Validator/ValidatorChain.php(198): DoctrineModule\Validator\NoObjectExists->isValid('hxin1', Array)
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/InputFilter/Input.php(310): Zend\Validator\ValidatorChain->isValid('hxin1', Array)
+#9 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/InputFilter/BaseInputFilter.php(306): Zend\InputFilter\Input->isValid(Array)
+#10 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/InputFilter/BaseInputFilter.php(170): Zend\InputFilter\BaseInputFilter->validateInputs(Array, Array)
+#11 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Form/Form.php(498): Zend\InputFilter\BaseInputFilter->isValid()
+#12 /home/xin/Workspace/www/zend/zf2modules/module/CsnUser/src/CsnUser/Controller/RegistrationController.php(94): Zend\Form\Form->isValid()
+#13 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractActionController.php(83): CsnUser\Controller\RegistrationController->indexAction()
+#14 [internal function]: Zend\Mvc\Controller\AbstractActionController->onDispatch(Object(Zend\Mvc\MvcEvent))
+#15 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#16 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#17 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractController.php(117): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#18 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/DispatchListener.php(114): Zend\Mvc\Controller\AbstractController->dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#19 [internal function]: Zend\Mvc\DispatchListener->onDispatch(Object(Zend\Mvc\MvcEvent))
+#20 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#21 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#22 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(309): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#23 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#24 {main}
+2014-01-04T23:15:38+00:00 CRIT (2): registration
+2014-01-04T23:15:38+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'CsnUser\\Controller',
+  'controller' => 'CsnUser\\Controller\\Registration',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Registration',
+)
+2014-01-04T23:15:38+00:00 CRIT (2): POST http://localhost/zend/zf2modules/public/signup HTTP/1.1
+Cookie: PHPSESSID=1012l9k2sc8sgu9k3irahp2sg6
+Host: localhost
+Connection: keep-alive
+Content-Length: 186
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://localhost
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://localhost/zend/zf2modules/public/signup
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+username=hxin1&displayName=hxin1&email=hxin1%40gmail.com&password=12091209&passwordConfirm=12091209&captcha%5Bid%5D=4f809f5282b9060d0d5d55c941880a73&captcha%5Binput%5D=mos&submit=Sign+up
+2014-01-04T23:15:38+00:00 CRIT (2): exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'test1'' in /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=loca...', 'root', '12091209', Array)
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(41): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=loca...', 'root', '12091209', Array)
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(356): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'root', '12091209', Array)
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(680): Doctrine\DBAL\Connection->connect()
+#4 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php(748): Doctrine\DBAL\Connection->executeQuery('SELECT t0.id AS...', Array, Array)
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php(196): Doctrine\ORM\Persisters\BasicEntityPersister->load(Array, NULL, NULL, Array, 0, 1, NULL)
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/doctrine/doctrine-module/src/DoctrineModule/Validator/NoObjectExists.php(50): Doctrine\ORM\EntityRepository->findOneBy(Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Validator/ValidatorChain.php(198): DoctrineModule\Validator\NoObjectExists->isValid('hxin1', Array)
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/InputFilter/Input.php(310): Zend\Validator\ValidatorChain->isValid('hxin1', Array)
+#9 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/InputFilter/BaseInputFilter.php(306): Zend\InputFilter\Input->isValid(Array)
+#10 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/InputFilter/BaseInputFilter.php(170): Zend\InputFilter\BaseInputFilter->validateInputs(Array, Array)
+#11 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Form/Form.php(498): Zend\InputFilter\BaseInputFilter->isValid()
+#12 /home/xin/Workspace/www/zend/zf2modules/module/CsnUser/src/CsnUser/Controller/RegistrationController.php(94): Zend\Form\Form->isValid()
+#13 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractActionController.php(83): CsnUser\Controller\RegistrationController->indexAction()
+#14 [internal function]: Zend\Mvc\Controller\AbstractActionController->onDispatch(Object(Zend\Mvc\MvcEvent))
+#15 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#16 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#17 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractController.php(117): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#18 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/DispatchListener.php(114): Zend\Mvc\Controller\AbstractController->dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#19 [internal function]: Zend\Mvc\DispatchListener->onDispatch(Object(Zend\Mvc\MvcEvent))
+#20 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#21 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#22 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(309): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#23 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#24 {main}

@@ -7,7 +7,6 @@ return array(
 								'params' => array(
 										'host'     => 'localhost',
 										'port'     => '3306',
-										'user'     => 'root',
-										'password' => '12091209',
 										'dbname'   => 'test',
+								        'charset' => 'utf8',
 )))));

@@ -6,9 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'ZfTable' => array($vendorDir . '/dudapiotr/zftable/src'),
     'Zend\\' => array($vendorDir . '/zendframework/zendframework/library'),
     'ZendDeveloperTools' => array($vendorDir . '/zendframework/zend-developer-tools/src'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'EventErrorLogger' => array($vendorDir . '/weteef/eventerrorlogger/src'),
     'Doctrine\\ORM\\' => array($vendorDir . '/doctrine/orm/lib'),
     'Doctrine\\DBAL\\' => array($vendorDir . '/doctrine/dbal/lib'),
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),

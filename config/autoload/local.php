@@ -10,10 +10,21 @@
  * in ZendSkeletonApplication. This is a good practice, as it prevents sensitive
  * credentials from accidentally being committed into version control.
  */
-
 return array(
     'db' => array(
         'username' => 'root',
         'password' => '12091209'
+    ),
+    'doctrine' => array(
+        'connection' => array(
+            'orm_default' => array(
+                'driverClass' => 'Doctrine\DBAL\Driver\PDOPgSql\Driver',
+                'params' => array(
+                    'user' => 'root',
+                    'password' => '12091209'
+                )
+            )
         )
-);
+    )
+)
+;

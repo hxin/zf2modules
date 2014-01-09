@@ -5,6 +5,9 @@ return array(
         'ZendDeveloperTools',
         'DoctrineModule',
         'DoctrineORMModule',
+        'EventErrorLogger',
+        //'ZfTable',
+        'Menu',
         'Application','Album','CsnUser'
     ),
 

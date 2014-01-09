@@ -1,0 +1,490 @@
+2014-01-06T17:02:05+00:00 CRIT (2): menu
+2014-01-06T17:02:05+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Index',
+)
+2014-01-06T17:02:05+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:02:05+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:02:05+00:00 CRIT (2): menu
+2014-01-06T17:02:05+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Index',
+)
+2014-01-06T17:02:05+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:02:05+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:02:35+00:00 CRIT (2): menu
+2014-01-06T17:02:35+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Index',
+)
+2014-01-06T17:02:35+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:02:35+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:02:35+00:00 CRIT (2): menu
+2014-01-06T17:02:35+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Index',
+)
+2014-01-06T17:02:35+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:02:35+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:02:37+00:00 CRIT (2): menu
+2014-01-06T17:02:37+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Index',
+)
+2014-01-06T17:02:37+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:02:37+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:02:37+00:00 CRIT (2): menu
+2014-01-06T17:02:37+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Index',
+)
+2014-01-06T17:02:37+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:02:37+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:08:03+00:00 CRIT (2): menu
+2014-01-06T17:08:03+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Index',
+)
+2014-01-06T17:08:03+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:08:03+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:08:03+00:00 CRIT (2): menu
+2014-01-06T17:08:03+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Index',
+)
+2014-01-06T17:08:03+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:08:03+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:08:53+00:00 CRIT (2): menu/default
+2014-01-06T17:08:53+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'index',
+)
+2014-01-06T17:08:53+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu/index HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:08:53+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:08:53+00:00 CRIT (2): menu/default
+2014-01-06T17:08:53+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'index',
+)
+2014-01-06T17:08:53+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu/index HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:08:53+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:10:08+00:00 CRIT (2): menu/default
+2014-01-06T17:10:08+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'index',
+)
+2014-01-06T17:10:08+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu/index HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:10:08+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T17:10:08+00:00 CRIT (2): menu/default
+2014-01-06T17:10:08+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'index',
+)
+2014-01-06T17:10:08+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu/index HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T17:10:08+00:00 CRIT (2): exception 'Zend\View\Exception\RuntimeException' with message 'Zend\View\Renderer\PhpRenderer::render: Unable to render template "menu/index/index"; resolver could not resolve to a file' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php:499
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(205): Zend\View\Renderer\PhpRenderer->render(Object(Zend\View\Model\ViewModel))
+#1 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(233): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/View.php(198): Zend\View\View->renderChildren(Object(Zend\View\Model\ViewModel))
+#3 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/View/Http/DefaultRenderingStrategy.php(102): Zend\View\View->render(Object(Zend\View\Model\ViewModel))
+#4 [internal function]: Zend\Mvc\View\Http\DefaultRenderingStrategy->render(Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('render', Object(Zend\Mvc\MvcEvent), Array)
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(347): Zend\EventManager\EventManager->trigger('render', Object(Zend\Mvc\MvcEvent))
+#8 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(322): Zend\Mvc\Application->completeRequest(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#10 {main}
+2014-01-06T20:44:55+00:00 CRIT (2): menu/default
+2014-01-06T20:44:55+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'index',
+)
+2014-01-06T20:44:55+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu/index HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T20:44:55+00:00 CRIT (2): exception 'Zend\ServiceManager\Exception\ServiceNotFoundException' with message 'No valid instance was found for ' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php:613
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php(561): Zend\ServiceManager\ServiceManager->doCreate(NULL, '')
+#1 /home/xin/Workspace/www/zend/zf2modules/module/Menu/src/Menu/Controller/IndexController.php(49): Zend\ServiceManager\ServiceManager->create()
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractActionController.php(83): Menu\Controller\IndexController->indexAction()
+#3 [internal function]: Zend\Mvc\Controller\AbstractActionController->onDispatch(Object(Zend\Mvc\MvcEvent))
+#4 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractController.php(117): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/DispatchListener.php(114): Zend\Mvc\Controller\AbstractController->dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#8 [internal function]: Zend\Mvc\DispatchListener->onDispatch(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#10 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#11 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(309): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#12 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#13 {main}
+2014-01-06T20:44:55+00:00 CRIT (2): menu/default
+2014-01-06T20:44:55+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'index',
+)
+2014-01-06T20:44:55+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu/index HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T20:44:55+00:00 CRIT (2): exception 'Zend\ServiceManager\Exception\ServiceNotFoundException' with message 'No valid instance was found for ' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php:613
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php(561): Zend\ServiceManager\ServiceManager->doCreate(NULL, '')
+#1 /home/xin/Workspace/www/zend/zf2modules/module/Menu/src/Menu/Controller/IndexController.php(49): Zend\ServiceManager\ServiceManager->create()
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractActionController.php(83): Menu\Controller\IndexController->indexAction()
+#3 [internal function]: Zend\Mvc\Controller\AbstractActionController->onDispatch(Object(Zend\Mvc\MvcEvent))
+#4 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractController.php(117): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/DispatchListener.php(114): Zend\Mvc\Controller\AbstractController->dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#8 [internal function]: Zend\Mvc\DispatchListener->onDispatch(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#10 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#11 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(309): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#12 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#13 {main}
+2014-01-06T20:45:14+00:00 CRIT (2): menu/default
+2014-01-06T20:45:14+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'index',
+)
+2014-01-06T20:45:14+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu/index HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T20:45:14+00:00 CRIT (2): exception 'Zend\ServiceManager\Exception\ServiceNotFoundException' with message 'No valid instance was found for ' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php:613
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php(561): Zend\ServiceManager\ServiceManager->doCreate(NULL, '')
+#1 /home/xin/Workspace/www/zend/zf2modules/module/Menu/src/Menu/Controller/IndexController.php(49): Zend\ServiceManager\ServiceManager->create()
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractActionController.php(83): Menu\Controller\IndexController->indexAction()
+#3 [internal function]: Zend\Mvc\Controller\AbstractActionController->onDispatch(Object(Zend\Mvc\MvcEvent))
+#4 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractController.php(117): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/DispatchListener.php(114): Zend\Mvc\Controller\AbstractController->dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#8 [internal function]: Zend\Mvc\DispatchListener->onDispatch(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#10 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#11 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(309): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#12 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#13 {main}
+2014-01-06T20:45:14+00:00 CRIT (2): menu/default
+2014-01-06T20:45:14+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'index',
+)
+2014-01-06T20:45:14+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu/index HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-06T20:45:14+00:00 CRIT (2): exception 'Zend\ServiceManager\Exception\ServiceNotFoundException' with message 'No valid instance was found for ' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php:613
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php(561): Zend\ServiceManager\ServiceManager->doCreate(NULL, '')
+#1 /home/xin/Workspace/www/zend/zf2modules/module/Menu/src/Menu/Controller/IndexController.php(49): Zend\ServiceManager\ServiceManager->create()
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractActionController.php(83): Menu\Controller\IndexController->indexAction()
+#3 [internal function]: Zend\Mvc\Controller\AbstractActionController->onDispatch(Object(Zend\Mvc\MvcEvent))
+#4 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractController.php(117): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/DispatchListener.php(114): Zend\Mvc\Controller\AbstractController->dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#8 [internal function]: Zend\Mvc\DispatchListener->onDispatch(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#10 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#11 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(309): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#12 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#13 {main}

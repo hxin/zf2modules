@@ -480,7 +480,7 @@ class Image extends AbstractWord
         if (empty($font)) {
             throw new Exception\NoFontProvidedException('Image CAPTCHA requires font');
         }
-
+        
         $w     = $this->getWidth();
         $h     = $this->getHeight();
         $fsize = $this->getFontSize();

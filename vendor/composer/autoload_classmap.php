@@ -6,5 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'EventErrorLogger\\Module' => $vendorDir . '/weteef/eventerrorlogger/Module.php',
     'ZendDeveloperTools\\Module' => $vendorDir . '/zendframework/zend-developer-tools/Module.php',
+    'ZfTable\\Module' => $vendorDir . '/dudapiotr/zftable/Module.php',
 );
