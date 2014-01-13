@@ -1,0 +1,66 @@
+2014-01-12T16:56:39+00:00 CRIT (2): menu
+2014-01-12T16:56:39+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Index',
+)
+2014-01-12T16:56:39+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-12T16:56:39+00:00 CRIT (2): exception 'Zend\View\Exception\InvalidArgumentException' with message 'Zend\View\Model\ViewModel::setVariables: expects an array, or Traversable argument; received "Menu\Model\Menu\FusionMenu"' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Model/ViewModel.php:261
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Model/ViewModel.php(82): Zend\View\Model\ViewModel->setVariables(Object(Menu\Model\Menu\FusionMenu), true)
+#1 /home/xin/Workspace/www/zend/zf2modules/module/Menu/src/Menu/Controller/IndexController.php(59): Zend\View\Model\ViewModel->__construct(Object(Menu\Model\Menu\FusionMenu))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractActionController.php(83): Menu\Controller\IndexController->indexAction()
+#3 [internal function]: Zend\Mvc\Controller\AbstractActionController->onDispatch(Object(Zend\Mvc\MvcEvent))
+#4 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractController.php(117): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/DispatchListener.php(114): Zend\Mvc\Controller\AbstractController->dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#8 [internal function]: Zend\Mvc\DispatchListener->onDispatch(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#10 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#11 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(309): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#12 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#13 {main}
+2014-01-12T16:56:39+00:00 CRIT (2): menu
+2014-01-12T16:56:39+00:00 CRIT (2): array (
+  '__NAMESPACE__' => 'Menu\\Controller',
+  'controller' => 'Menu\\Controller\\Index',
+  'action' => 'index',
+  '__CONTROLLER__' => 'Index',
+)
+2014-01-12T16:56:39+00:00 CRIT (2): GET http://localhost/zend/zf2modules/public/menu HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6
+
+
+2014-01-12T16:56:39+00:00 CRIT (2): exception 'Zend\View\Exception\InvalidArgumentException' with message 'Zend\View\Model\ViewModel::setVariables: expects an array, or Traversable argument; received "Menu\Model\Menu\FusionMenu"' in /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Model/ViewModel.php:261
+Stack trace:
+#0 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/View/Model/ViewModel.php(82): Zend\View\Model\ViewModel->setVariables(Object(Menu\Model\Menu\FusionMenu), true)
+#1 /home/xin/Workspace/www/zend/zf2modules/module/Menu/src/Menu/Controller/IndexController.php(59): Zend\View\Model\ViewModel->__construct(Object(Menu\Model\Menu\FusionMenu))
+#2 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractActionController.php(83): Menu\Controller\IndexController->indexAction()
+#3 [internal function]: Zend\Mvc\Controller\AbstractActionController->onDispatch(Object(Zend\Mvc\MvcEvent))
+#4 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#5 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#6 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Controller/AbstractController.php(117): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#7 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/DispatchListener.php(114): Zend\Mvc\Controller\AbstractController->dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#8 [internal function]: Zend\Mvc\DispatchListener->onDispatch(Object(Zend\Mvc\MvcEvent))
+#9 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#10 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/EventManager/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#11 /home/xin/Workspace/www/zend/zf2modules/vendor/zendframework/zendframework/library/Zend/Mvc/Application.php(309): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#12 /home/xin/Workspace/www/zend/zf2modules/public/index.php(12): Zend\Mvc\Application->run()
+#13 {main}

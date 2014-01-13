@@ -2,6 +2,9 @@
 namespace Menu;
 
 use Zend\ServiceManager\ServiceManager;
+use Menu\Model\Factory\FusionMenuFactory;
+use Menu\Model\Loader\TXTLoader;
+use Menu\Model\Loader\TXTRow;
 
 
 
@@ -34,13 +37,14 @@ class Module
                     $config = $sm->get('Config');
                     return new Options\ModuleOptions(isset($config['menu']['module_settings']) ? $config['menu']['module_settings'] : array());
                 },
-                'menu_config' => function(ServiceManager $sm){
-                	$config = $sm->get('Config');
-                	return new Options\MenuOptions(isset($config['menu']['menu_settings']) ? $config['menu']['menu_settings'] : array());
+                'menu_fusionmenufactory' => function(ServiceManager $sm){
+                    $options=$sm->get('menu_module_options');
+                	return new FusionMenuFactory($options);
                 },
-                'menu_factory' => function(ServiceManager $sm){
-                	return new MenuFactoty($sm->get('menu_config'));
+                'menu_txtloader' => function(ServiceManager $sm){
+                	return new TXTLoader(new TXTRow());
                 },
+                
                 
             )
         )

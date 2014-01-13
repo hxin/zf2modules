@@ -10,17 +10,13 @@
  * @author Stoyan Revov <st.revov@gmail.com>
  */
 
-namespace Menu\Controller;
+namespace Order\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 
 
 use Zend\ServiceManager\ServiceManager;
-use Menu\Model\Menu;
-use Menu\Model\Loader\TXTLoader;
-use Menu\Model\Factory\FusionMenuFactory;
-use Zend\View\Model\JsonModel;
-use Menu\Options\ModuleOptions;
+
 
 /**
  * <b>Authentication controller</b>

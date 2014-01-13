@@ -1,10 +1,10 @@
 <?php
 
-namespace Menu\Options;
+namespace Order\Options;
 
 use Zend\Stdlib\AbstractOptions;
 
-class ModuleOptions extends AbstractOptions
+class OrderOptions extends AbstractOptions
 {
     /**
      * Turn off strict options mode
